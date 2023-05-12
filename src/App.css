@@ -82,6 +82,7 @@ main {
 
 .form {
   display: grid;
+  justify-content: center;
   grid-template: 40px 40px / 50% 50%;
   gap: 15px;
 }
