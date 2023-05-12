@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Scrimba_Mem-Generator_React-project/static/css/main.ded3441e.css",
-    "main.js": "/Scrimba_Mem-Generator_React-project/static/js/main.796fda69.js",
+    "main.css": "/Scrimba_Mem-Generator_React-project/static/css/main.4fa68d02.css",
+    "main.js": "/Scrimba_Mem-Generator_React-project/static/js/main.e3aa1e8e.js",
     "static/js/787.876f76cf.chunk.js": "/Scrimba_Mem-Generator_React-project/static/js/787.876f76cf.chunk.js",
     "index.html": "/Scrimba_Mem-Generator_React-project/index.html",
-    "main.ded3441e.css.map": "/Scrimba_Mem-Generator_React-project/static/css/main.ded3441e.css.map",
-    "main.796fda69.js.map": "/Scrimba_Mem-Generator_React-project/static/js/main.796fda69.js.map",
+    "main.4fa68d02.css.map": "/Scrimba_Mem-Generator_React-project/static/css/main.4fa68d02.css.map",
+    "main.e3aa1e8e.js.map": "/Scrimba_Mem-Generator_React-project/static/js/main.e3aa1e8e.js.map",
     "787.876f76cf.chunk.js.map": "/Scrimba_Mem-Generator_React-project/static/js/787.876f76cf.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ded3441e.css",
-    "static/js/main.796fda69.js"
+    "static/css/main.4fa68d02.css",
+    "static/js/main.e3aa1e8e.js"
   ]
 }
