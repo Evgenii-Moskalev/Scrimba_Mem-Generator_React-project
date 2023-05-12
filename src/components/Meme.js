@@ -1,10 +1,6 @@
 import React from "react";
 
-import MemeDatabase from "../MemeDatabase";
-
-
 export default function Meme() {
-
 
     const [meme, setMeme] = React.useState({
         topText: '',
@@ -12,8 +8,14 @@ export default function Meme() {
         randomImage: 'http://i.imgflip.com/1bij.jpg'
     });
 
-    const [allMemeImages, setAllMemeImages] = React.useState(MemeDatabase);
+    const [allMemeImages, setAllMemeImages] = React.useState([]);
     // console.log(allMemeImages);
+
+    React.useEffect(() => {
+        fetch("https://api.imgflip.com/get_memes")
+            .then(res => res.json())
+            .then(data => setAllMemeImages(data))
+    }, [])
 
     function handleChange(event) {
         const { name, value } = event.target;
@@ -27,7 +29,7 @@ export default function Meme() {
     }
 
     function getMemeImage() {
-        const randomNum = Math.floor(Math.random() * (MemeDatabase.data.memes.length));
+        const randomNum = Math.floor(Math.random() * (allMemeImages.data.memes.length));
         // console.log(randomNum);
         const randomImageURL = allMemeImages.data.memes[randomNum].url;
         // Or using destructuring
